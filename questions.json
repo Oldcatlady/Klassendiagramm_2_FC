@@ -1,0 +1,102 @@
+[
+{
+  "question": "Wie wird der Rückgabetyp einer Methode in UML angegeben?",
+  "answer": "Nach der Parameterliste, getrennt durch einen Doppelpunkt, z. B. `getName(): String`."
+},
+{
+  "question": "Wie werden Parameter einer Methode in UML angegeben?",
+  "answer": "In runden Klammern hinter dem Methodennamen, mit Name und Datentyp, z. B. `setName(name: String)`."
+},
+{
+  "question": "Was bedeutet die Sichtbarkeit eines Klassenmitglieds?",
+  "answer": "Sie legt fest, von wo (welchen Klassen) auf ein Attribut oder eine Methode zugegriffen werden darf."
+},
+{
+  "question": "Welche Sichtbarkeiten gibt es in UML?",
+  "answer": "public (+), private (-), protected (#) und Package/Default (~)."
+},
+{
+  "question": "Was bedeutet die Sichtbarkeit public?",
+  "answer": "Der Zugriff ist von überall (jeder anderen Klasse) aus möglich."
+},
+{
+  "question": "Wie wird public in einem UML-Klassendiagramm gekennzeichnet?",
+  "answer": "Mit einem Plus-Zeichen (+) vor dem Attribut-/Methodennamen."
+},
+{
+  "question": "Was bedeutet die Sichtbarkeit private?",
+  "answer": "Der Zugriff ist nur innerhalb derselben Klasse möglich."
+},
+{
+  "question": "Wie wird private in einem UML-Klassendiagramm gekennzeichnet?",
+  "answer": "Mit einem Minus-Zeichen (-) vor dem Attribut-/Methodennamen."
+},
+{
+  "question": "Was bedeutet die Sichtbarkeit protected?",
+  "answer": "Der Zugriff ist innerhalb der Klasse und von abgeleiteten (erbenden) Klassen möglich."
+},
+{
+  "question": "Wie wird protected in einem UML-Klassendiagramm gekennzeichnet?",
+  "answer": "Mit einer Raute (#) vor dem Attribut-/Methodennamen."
+},
+{
+  "question": "Was bedeutet eine Sichtbarkeit ohne besondere Einschränkung?",
+  "answer": "Die Package-Sichtbarkeit (~): Zugriff ist nur innerhalb desselben Pakets möglich."
+},
+{
+  "question": "Warum werden Attribute in der objektorientierten Programmierung häufig als private deklariert?",
+  "answer": "Um die Attribute vor direktem, unkontrolliertem Zugriff von außen zu schützen (Datenkapselung)."
+},
+{
+  "question": "Was bedeutet Datenkapselung?",
+  "answer": "Das Verbergen der internen Attribute einer Klasse und der kontrollierte Zugriff darauf über öffentliche Methoden."
+},
+{
+  "question": "Warum ist Datenkapselung ein wichtiges Prinzip der objektorientierten Programmierung?",
+  "answer": "Weil sie die Daten vor unkontrollierten Änderungen schützt und die interne Implementierung unabhängig von der Nutzung der Klasse hält."
+},
+{
+  "question": "Was ist ein Getter?",
+  "answer": "Eine öffentliche Methode, die den Wert eines privaten Attributs zurückgibt."
+},
+{
+  "question": "Welche Aufgabe hat ein Getter?",
+  "answer": "Er ermöglicht lesenden Zugriff auf ein privates Attribut von außen."
+},
+{
+  "question": "Was ist ein Setter?",
+  "answer": "Eine öffentliche Methode, die den Wert eines privaten Attributs setzt/ändert."
+},
+{
+  "question": "Welche Aufgabe hat ein Setter?",
+  "answer": "Er ermöglicht schreibenden, kontrollierten Zugriff auf ein privates Attribut von außen."
+},
+{
+  "question": "Warum werden Getter und Setter verwendet?",
+  "answer": "Um trotz privater Attribute einen kontrollierten, definierten Zugriff von außen zu ermöglichen (z. B. mit Prüfungen)."
+},
+{
+  "question": "Warum werden Getter und Setter häufig in Verbindung mit privaten Attributen verwendet?",
+  "answer": "Weil private Attribute von außen nicht direkt zugreifbar sind und Getter/Setter den einzigen kontrollierten Zugriffsweg bieten."
+},
+{
+  "question": "Wie sieht eine typische Getter-Methode in Java aus?",
+  "answer": "```java\npublic String getName() {\n    return name;\n}\n```"
+},
+{
+  "question": "Wie sieht eine typische Setter-Methode in Java aus?",
+  "answer": "```java\npublic void setName(String name) {\n    this.name = name;\n}\n```"
+},
+{
+  "question": "Wie wird ein privates Attribut mit einem Getter und Setter nach außen zugänglich gemacht?",
+  "answer": "Indem eine public-Methode (Getter) den Wert zurückgibt und eine weitere public-Methode (Setter) den Wert verändert."
+},
+{
+  "question": "Warum müssen Getter und Setter bei einer Klasse berücksichtigt werden?",
+  "answer": "Weil ohne sie private Attribute von außen weder gelesen noch verändert werden können."
+},
+{
+  "question": "Was bedeutet Kapselung im Zusammenhang mit Getter und Setter?",
+  "answer": "Attribute bleiben privat (geschützt), der Zugriff erfolgt ausschließlich über definierte öffentliche Methoden."
+}
+]
